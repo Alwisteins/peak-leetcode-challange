@@ -4,7 +4,7 @@ type Counter = {
   reset: () => number;
 };
 
-function createCounter(init: number): Counter {
+function createCounter2(init: number): Counter {
   let result = init;
   return {
     increment: () => {
